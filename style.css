@@ -49,6 +49,7 @@
         box-shadow: 72px 92px 259px 112px rgba(255,255,255,0.77);
 -webkit-box-shadow: 72px 92px 259px 112px rgba(255,255,255,0.77);
 -moz-box-shadow: 72px 92px 259px 112px rgba(255,255,255,0.77);
+cursor: pointer;
 
 }
 
@@ -60,6 +61,15 @@
         border: none;
         margin-left: 10px;
         border-radius: 5px;
+        cursor: pointer;
+}
+.btn_1:hover{
+        background-color:#a55cea ;
+
+}
+.btn_2:hover{
+        background-color: white;
+        color: black;
 }
 
 /* ...........................................section 2..................... */
@@ -374,6 +384,13 @@ textarea {
                 font-size: 30px;
                 color: grey;
                 padding-top: 60px;
+        }
+
+        /* ...............section 5................ */
+
+        form{
+                padding-left: 35px;
+               
         }
       }
 
